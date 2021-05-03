@@ -38,7 +38,7 @@ Além disto é bom ter um editor para trabalhar com o código como [VSCode](http
 ### 📌 Como rodar o Projeto
 ```bash
     # 1º Clonar o repositório
-    $ git clone https://github.com/arkanael/FinAPI
+    $ git clone https://github.com/arkanael/ignite-desafio-01-conceitos-nodejs
 
     # 2º Entrar no diretório
     $ cd TODOAPI
