@@ -1,9 +1,9 @@
-# 🏛 FinAPI - Financeira
-FINAPI - API financeira para transações bancarias, podendo criar uma conta, ver o extrato bancário,
-realizar um saque etc.
+# 🏛 TODOAPI
+TODOAPI - API para gerenciar tarefas.
 
-## 💻 Sobre o Projeto
-Esse é o Primeiro projeto do bootcamp do Ignite da Rocketseat, desenvolvida nas aulas do primeiro capitulo do curso Ignite, com o intuito de colocar em prática os fundamentos do NodeJs.
+## 💻 Sobre o desafio
+Nesse desafio, você deverá criar uma aplicação para treinar o que aprendeu até agora no Node.js!
+Essa será uma aplicação para gerenciar tarefas (em inglês *todos*). Será permitida a criação de um usuário com `name` e `username`, bem como fazer o CRUD de *todos*:
 
 ### 🧪 Tecnologias
 - NodeJs(https://nodejs.org/)
@@ -11,38 +11,29 @@ Esse é o Primeiro projeto do bootcamp do Ignite da Rocketseat, desenvolvida nas
 - Uuidv4(https://www.npmjs.com/package/uuidv4)
 
 ### 🛠 Features
-- Cadastro de conta.
-- Atualizar dados de conta.
-- Desativar uma conta.
-- Realizar depósito.
-- Realizar saque.
-- Buscar extrato bancário.
-- Buscar extrato bancário por data.
+- Cadastrar novo TODO.
+- Listar todos os TODO's.
+- Alterear o title e deadline de um TODO existente.
+- Marcar um TODO como feito
+- Excluir um TODO.
 
 ### 🟢 Requisitos
-- [x] Deve ser possível criar uma conta.
-- [x] Deve ser possível buscar o extrato bancário do cliente.
-- [x] Deve ser possível realizar um depósito.
-- [x] Deve ser possível realizar um saque.
-- [x] Deve ser possível buscar o extrato bancário do cliente por data.
-- [x] Deve ser possível atualizar dados da conta do cliente.
-- [x] Deve ser possível obter dados da conta do cliente.
-- [x] Deve ser possível deletar uma conta
+- [ x ] Deve ser possível criar um novo usuário.
+- [ x ] Deve ser possível criar um novo TODO.
+- [ x ] Deve ser possível marcar um TODO como feito.
+- [ x ] Deve ser possível listar todos os TODO's do usuário.
+- [ x ] Deve ser possível atualizar um TODO's do usuário.
+- [ x ] Deve ser possível excluir um TODO's do usuário.
 
 ### 🔴 Regras de negócio
-- [x] Não deve ser possível cadastrar uma conta com CPF já existente.
-- [x] Não deve ser possível buscar estrato em uma conta não existente.
-- [x] Não deve ser possível fazer depósito em uma conta não existente.
-- [x] Não deve ser possível fazer saque em uma conta não existente.
-- [x] Não deve ser possível excluir uma conta não existente.
-- [x] Não deve ser possível fazer saque quando o saldo for insuficiente.
+- [ x ] Não deve ser possível cadastrar usuário com o mesmo username.
+- [ x ] Não deve ser possível atualizar um TODO não existentente.
+- [ x ] Não deve ser possível marcar um TODO não existente como feito.
 
 ### 🎲 Pré-requisitos
-
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
 [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/). 
 Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
-
 
 ### 📌 Como rodar o Projeto
 ```bash
@@ -50,7 +41,7 @@ Além disto é bom ter um editor para trabalhar com o código como [VSCode](http
     $ git clone https://github.com/arkanael/FinAPI
 
     # 2º Entrar no diretório
-    $ cd FinApi
+    $ cd TODOAPI
 
     # 3º Instalar as dependências
     $ yarn install
@@ -60,10 +51,8 @@ Além disto é bom ter um editor para trabalhar com o código como [VSCode](http
 ```
 
 ### 🚀 Contatos
-
 <h4>LinkedIn: <a href="https://www.linkedin.com/in/lbandeira/">www.linkedin.com/in/lbandeira/</a></h4>
 <h4>Facebook: <a href="https://www.facebook.com/luiz.guilherme.58367/">https://www.facebook.com/luiz.guilherme.58367/</a></h4>
 <h4>E-mail: <a href="mailto://arkanael@gmailcom/">arkanael@gmail.com</a></h4>
-
 
 <h4 align=center>Desenvolvido por Luiz Guilherme Bandeira</a></h4>
